@@ -8,7 +8,7 @@ export const Route = createFileRoute("/_layout")({
 
 function MainLayout() {
   return (
-    <div className="h-dvh">
+    <div className="h-full">
       <Nav />
       <Outlet />
     </div>

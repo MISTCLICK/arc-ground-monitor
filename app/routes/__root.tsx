@@ -52,7 +52,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <Meta />
       </head>
-      <body>
+      <body className="h-dvh overflow-hidden">
         {children}
         <TanStackRouterDevtools position="bottom-right" />
         <Scripts />

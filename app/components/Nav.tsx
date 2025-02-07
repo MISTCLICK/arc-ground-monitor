@@ -25,11 +25,8 @@ const Nav: React.FC = () => {
           >
             <div className="bg-white h-1 w-[89.7%] left-10 absolute top-1.5" />
             {statuses.map((status, idx) => (
-              <div className="flex flex-col items-center gap-y-1">
-                <div
-                  key={idx}
-                  className="size-4 text-black text-xs z-20 rounded-full bg-white"
-                />
+              <div key={idx} className="flex flex-col items-center gap-y-1">
+                <div className="size-4 text-black text-xs z-20 rounded-full bg-white" />
                 <div className="text-[60%] tracking-wider">{status}</div>
               </div>
             ))}
